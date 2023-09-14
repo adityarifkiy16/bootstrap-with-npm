@@ -1,0 +1,56 @@
+.form-login {
+    max-width: 300px;
+}
+
+.button-hov{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.button-hov:hover {
+    box-shadow: 4px 12px 5px -7px rgba(160, 160, 160, 0.75);
+    transform: translateY(-5px);
+}
+
+.data-block {
+    border-radius: 10px;
+    background-color: #35A29F;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(25px);
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .data-block {
+      width: 100% !important;
+      font-size: 10px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #57534e;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+  
+

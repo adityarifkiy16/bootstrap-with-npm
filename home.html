@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/starter.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="w-100 position-absolute top-0 start-0">
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg navbar-light bg-secondary-subtle"
+        aria-label="Offcanvas navbar large"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/brand/logo.png" alt="" style="width: 120px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start bg-secondary-subtle"
+            tabindex="-1"
+            id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">menu</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- navbar item -->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form action="" role="search" class="d-flex">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="search"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- akhir navbar item -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="d-flex flex-column mt-100">
+      <main class="container">
+        <div class="position-relative bg-secondary-subtle p-3 rounded">
+          <h3 class="h3 fw-bold position-absolute top-0 start-2 pt-3">
+            Overview
+          </h3>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class=""></div>
+            <div class="row pt-5">
+              <div class="col-4">
+                <div
+                  class="data-block text-start d-flex flex-column text-white p-3"
+                >
+                  <span class="fw-semibold">Target pemenangan</span>
+                  <span class="fw-light"
+                    ><i class="fa-solid fa-user"></i> 100 orang</span
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div
+                  class="data-block text-start d-flex flex-column text-white p-3"
+                >
+                  <span class="fw-semibold">Target pemenangan</span>
+                  <span class="fw-light"
+                    ><i class="fa-solid fa-user"></i> 100 orang</span
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div
+                  class="data-block text-start d-flex flex-column text-white p-3"
+                >
+                  <span class="fw-semibold">Target pemenangan</span>
+                  <span class="fw-light"
+                    ><i class="fa-solid fa-user"></i> 100 orang</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mt-5" id="accordion-account">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button
+                class="accordion-button fw-bold text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#account"
+                aria-expanded="true"
+                aria-controls="account"
+              >
+                Akun baru terdaftar
+              </button>
+              <div
+                id="account"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordion-account"
+              >
+                <div class="accordion-body">
+                  <div
+                    class="card d-flex flex-row justify-content-start align-items-start gap-2 p-2 mb-2"
+                  >
+                    <span style="max-width: 50px">
+                      <img
+                        src="assets/img/image.png"
+                        alt=""
+                        style="width: 50px"
+                      />
+                    </span>
+                    <span class="d-flex flex-column justify-content-start">
+                      <span class="h5 fw-normale my-0"
+                        >Aditya Rifki Yuliatama</span
+                      >
+                      <span class="h6 fw-light fst-italic my-0"
+                        >adityarifkiy@mail.com</span
+                      >
+                      <span class="h6 fw-lighter mt-2"
+                        >bergabung 6 bulan lalu</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="card d-flex flex-row justify-content-start align-items-start gap-2 p-2 mb-2"
+                  >
+                    <span style="max-width: 50px">
+                      <img
+                        src="assets/img/image2.jpg"
+                        alt=""
+                        style="width: 50px"
+                      />
+                    </span>
+                    <span class="d-flex flex-column justify-content-start">
+                      <span class="h5 fw-normale my-0"
+                        >Mustagfirin Prasanta</span
+                      >
+                      <span class="h6 fw-light fst-italic my-0"
+                        >tata@mail.com</span
+                      >
+                      <span class="h6 fw-lighter mt-2"
+                        >bergabung 12 bulan lalu</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="card d-flex flex-row justify-content-start align-items-start gap-2 p-2 mb-2"
+                  >
+                    <span style="max-width: 50px">
+                      <img
+                        src="assets/img/image.png"
+                        alt=""
+                        style="width: 50px"
+                      />
+                    </span>
+                    <span class="d-flex flex-column justify-content-start">
+                      <span class="h5 fw-normale my-0">nico saputra</span>
+                      <span class="h6 fw-light fst-italic my-0"
+                        >nicosap123@mail.com</span
+                      >
+                      <span class="h6 fw-lighter mt-2"
+                        >bergabung 2 hari lalu</span
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mt-5 mb-5" id="accordion-table">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button
+                class="accordion-button fw-bold text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#table"
+                aria-expanded="true"
+                aria-controls="table"
+              >
+                Data Tabel
+              </button>
+              <div
+                id="table"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordion-table"
+              >
+                <div
+                  class="d-flex flex-row justify-content-end align-items-end p-3"
+                >
+                  <input
+                    type="text"
+                    id="searchInput"
+                    class="form-control"
+                    style="width: 250px"
+                    placeholder="Search..."
+                  />
+                </div>
+                <div class="table-responsive">
+                  <table class="table text-center">
+                    <thead>
+                      <tr class="align-middle">
+                        <th>No</th>
+                        <th>Daerah</th>
+                        <th>Kecamatan</th>
+                        <th>Desa</th>
+                        <th>Jumlah Dapat</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="No">1</td>
+                        <td data-label="Daerah">Semarang</td>
+                        <td data-label="Kecamatan">Genuk</td>
+                        <td data-label="Desa">Bangetayu Kulon</td>
+                        <td data-label="Jumlah Dapat">50%</td>
+                      </tr>
+
+                      <tr>
+                        <td data-label="No">2</td>
+                        <td data-label="Daerah">Semarang</td>
+                        <td data-label="Kecamatan">Sampangan</td>
+                        <td data-label="Desa">bendan</td>
+                        <td data-label="Jumlah Dapat">70%</td>
+                      </tr>
+
+                      <tr>
+                        <td data-label="No">3</td>
+                        <td data-label="Daerah">Semarang</td>
+                        <td data-label="Kecamatan">Pandean Lamper</td>
+                        <td data-label="Desa">Lamper tengah</td>
+                        <td data-label="Jumlah Dapat">90%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a2f99ee185.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

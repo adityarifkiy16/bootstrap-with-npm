@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-twbs-bootstrap"],
+  "rules": {
+    "property-no-unknown": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["deep"]
+      }
+    ]
+  }
+}
